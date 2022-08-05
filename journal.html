@@ -17,6 +17,18 @@
             </thead>
             <tbody>
                <tr>
+			  <td>05-08-2022</td>
+                <td>
+                <li>In the morning session,trainer explained remaining part of integration that is REST Api ,SOAP Api ,I learnt how to insert the outside data in to inside org by using rest api.In that used req.SetBody for sending data in format which you want to pass the key value.After that trainer explained soap api and how to insert data by using soap api.</li>
+                <li>After that, I learnt about the  Apex asynchronous ,asynchronous runs in background ,and it waits until the resources availability when the resources is available its get executed.in that trainer explained the types of asynchronous they are batch apex , schedule batch ,future method , and queueable apex.</li>
+				<li>Batch apex is used for processing bulk records , and also explained how to write batch apex for that class must implement the database. batchable interface and includes 3 methods ( start , execute, and finish). The default batch size is 200 records. It ranges from 1 to 10,000 for a single batch.and also explained it has the double governor limit.</li>
+                <li>After that, trainer explained how to schedule a batch using Schedule apex with syntax and Scheduled apex is used for scheduling the methods and the class must be implemented with Schedulable interface and To schedule the batch apex there are 2 methods by configuration and by using CRON operation.explained how to write CRON expression and wrote an apex class that implements the schedulable interface and scheduled it for execution on a specific schedule.</li>
+                <li>I learnt about the future method for executing long-running operations to make a web service callout from an apex trigger. It must be annotated as @future, then only it can be executed. Methods with the future annotation must be static and can only return void data types.</li>
+                <li>After that, the trainer explained the queueable method, queueable apex is similar to the @future method . In this case, we can make batch chaining in the execute method. By using this queueable interface, we can process an Apex that runs for a long time (such as web service call outs and extensive database operations).</li> 
+				<li>I learnt the access modifiers like (try,catch,finally )using simple apex examples. The trainer explained how to use try-catch blocks. These are used to recover from a thrown exception.</li>
+				</td>
+                </tr>
+               <tr>
 			  <td>04-08-2022</td>
                 <td>
                 <li>In the morning session ,ma'am started with the deployment topic.In that created two sandboxes. Ma'am explained how to login with a sandbox and production. explained  how to deploy data from sandbox to production org For deployment process,first we have to authorise the org connection.</li>
