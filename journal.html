@@ -17,6 +17,16 @@
             </thead>
             <tbody>
             <tr>
+			  <td>22-08-2022</td>
+                <td>
+                <li>In the morning session, i learnt how to create custom labels and how to import these labels to LWC. For this we used {import myLbl from '@salesforce/label/c.myLabel';}, and also explained ,if we want it to be used as a multilingual label, we can use translation language settings and  by changing user location and language in the user settings. when we login with this user we will get changed version of label and trainer showed with french example.</li>
+                <li>After that, I learnt how to add pictures and zip files to home , app, and record pages by creating static resources and importing them from LWC. with the help of examples like {import res from '@salesforce/resourceUrl/myResources';} and also explained how to add picture custom apps and record pages.</li>
+			    <li>After the break , I learnt about the life cycle hooks concept in LWC, where we call the constructor, ConnectedCallback() and DisconnectedCallback () , render(), render callback(),and error call back(event,stack). In the constructor, the super() key must be used.with the help of example by creating alerts in the above function trainer showed how this life cycle works..</li>
+				<li>With the help of parent and child component examples, the trainer explained how the life cycle  components works and the sequence of the life cycle that is  Parent constructor excuted first-->  then parent connectedCallback --> child constructor  --> child connectedCallback -> child renderCallback ->parent RenderCallback -> child Disconnected..</li>
+			    <li>I learnt navigation in LWC by creating buttons in the html file and importing and exporting from js file by using {export default class MyCustomElement extends NavigationMixin(LightningElement)}. To navigate in Lightning Experience, Lightning Communities, and the Salesforce app, use the navigation service.<\li>
+			  </td>
+                </tr>
+            <tr>
 			  <td>19-08-2022</td>
                 <td>
                 <li>In the morning session , I rewatched LWC's first video and the aura videos , and I practised by creating components on my home and record page ,App page .</li>
