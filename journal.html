@@ -17,13 +17,23 @@
             </thead>
             <tbody>
             <tr>
+			  <td>23-08-2022</td>
+                <td>
+                <li>In the morning session,trainer explained how to access the apex class using LWC. First we need to import the apex class into components .apex which has to be called from the components, must be annoted with @aura enabled (cacheable=true).</li>
+                <li>I also learnt how to call methods from Apex in two ways. We can call this one by wire method or property. We used {@wire() con/getDetails(){};} for contact details  and  by calling a method imperatively (mainly used event ).</li>
+			    <li>With the help of fetching all accounts, ma'am created one apex class and imported to components and created a wire method to display  the contacts and also showed with creating a grid and gutter pattern, and also used style for the account details by giving some spaces in the grids .and created a button in card so on clicking  we render to the contact details page.</li>
+				<li>And also i learnt how to create select box and combo box ,trainer explained with creating select box for printing account details and combo box to show the related contacts of that account id.I learnt about the spread operator in JavaScript,which is used to concatinate the value .</li>
+			    <li>After the break, the trainer explained imperative calls,imperative calls used to control when the method invocation occurs that is on clicking the button .I learnt this With the help of an example, by creating one text box and writing an account name on the box, related contact should be displayed on the home page. and created button in the case details like if the case is  closed by clicking on thebutton,n it should show closed in grids on home page.</li>
+			    </td>
+                </tr>
+            <tr>
 			  <td>22-08-2022</td>
                 <td>
                 <li>In the morning session, i learnt how to create custom labels and how to import these labels to LWC. For this we used {import myLbl from '@salesforce/label/c.myLabel';}, and also explained ,if we want it to be used as a multilingual label, we can use translation language settings and  by changing user location and language in the user settings. when we login with this user we will get changed version of label and trainer showed with french example.</li>
                 <li>After that, I learnt how to add pictures and zip files to home , app, and record pages by creating static resources and importing them from LWC. with the help of examples like {import res from '@salesforce/resourceUrl/myResources';} and also explained how to add picture custom apps and record pages.</li>
 			    <li>After the break , I learnt about the life cycle hooks concept in LWC, where we call the constructor, ConnectedCallback() and DisconnectedCallback () , render(), render callback(),and error call back(event,stack). In the constructor, the super() key must be used.with the help of example by creating alerts in the above function trainer showed how this life cycle works..</li>
 				<li>With the help of parent and child component examples, the trainer explained how the life cycle  components works and the sequence of the life cycle that is  Parent constructor excuted first-->  then parent connectedCallback --> child constructor  --> child connectedCallback -> child renderCallback ->parent RenderCallback -> child Disconnected..</li>
-			    <li>I learnt navigation in LWC by creating buttons in the html file and importing and exporting from js file by using {export default class MyCustomElement extends NavigationMixin(LightningElement)}. To navigate in Lightning Experience, Lightning Communities, and the Salesforce app, use the navigation service.<\li>
+			    <li>I learnt navigation in LWC by creating buttons in the html file and importing and exporting from js file by using {export default class MyCustomElement extends NavigationMixin(LightningElement)}. To navigate in Lightning Experience, Lightning Communities, and the Salesforce app, use the navigation service.</li>
 			  </td>
                 </tr>
             <tr>
